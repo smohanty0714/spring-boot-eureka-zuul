@@ -11,22 +11,6 @@ zuul:
   prefix: /api
 #  Uncomment to disable auto-registering all services read from Eureka
 #  ignoredServices: '*'
-  routes:
-    account-by-address:
-      path: /account-by-address/**
-      url: http://localhost:9092
-    account-by-service:
-      path: /account-by-service/**
-      serviceId: ACCOUNT-SERVICE
-    node-by-address:
-      path: /node-by-address/**
-      url: http://localhost:9091
-    node-by-service:
-      path: /node-by-service/**
-      serviceId: NODE-SERVICE
-    static:
-      path: /static/**
-
 spring:
   application:
     name: zuul-api-gateway-server
