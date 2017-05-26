@@ -30,8 +30,6 @@ http://localhost:9090/api/node-by-service/node/1
 Service Discovery through the URL :
 http://localhost:8761/
 
-I can demonstrate the same tomorrow and discuss more on the same . 
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Link followed for design :
 
