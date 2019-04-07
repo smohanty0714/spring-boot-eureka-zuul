@@ -2,16 +2,16 @@
 Spring Boot Zuul  and Eureka 
 ------------------------------
 This example demonstrates the main features of the Zuul API gateway integrated into spring cloud :<br>
-•	Service auto registration via eureka
-•	Service registration by address
-•	Service registration by service ID
-•	Filters (logging, authentication)
-•	Serving static content
-•	Service response Aggregation through Zuul
-Technology Used
-•	Spring boot 1.5.3.RELEASE
-•	Eureka Service Discovery Client
-•	Zuul API Gateway
+•	Service auto registration via eureka<br>
+•	Service registration by address<br>
+•	Service registration by service ID<br>
+•	Filters (logging, authentication)<br>
+•	Serving static content<br>
+•	Service response Aggregation through Zuul<br><br>
+Technology Used: <br>
+•	Spring boot 1.5.3.RELEASE<br>
+•	Eureka Service Discovery Client<br>
+•	Zuul API Gateway<br><br>
 
 Please review the attached POC project which contains two micro service (accountservice and nodeservice) , Service Discovery (eureka-server),  Api Gateway (zuul-server).
 
